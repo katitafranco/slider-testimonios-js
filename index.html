@@ -3,7 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Slider Testimoniales</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="wrapper-testimonials">
+        <div class="header-testimonials">
+          <h3>Lo que dicen nuestros clientes</h3>
+          <h1>Testimonios</h1>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+        <!-- Div de Testimonios -->
+
+        <div class="testimonials">
+          <div class="slider">
+            <!-- Slide 1 -->
+            <div class="slide"></div>
+            <div class="slide-bg"></div>
+            <div class="slide-content"></div>
+            <i class="fa-solid fa-quote-left"></i>
+            <i class="fa-solid fa-quote-right"></i>
+            <div class="slide-img">
+              <img src="img/cliente1.jpg" alt="Cliente1" />
+            </div>
+            <div class="slide-text">
+              <h3>Producto</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                sequi molestias iure quibusdam nisi nobis natus est! Itaque,
+                praesentium voluptatem hic, nisi molestiae nobis et unde
+                voluptatum rem deleniti quaerat?
+              </p>
+              <p class="cliente">-Jhon Doe</p>
+            </div>
+          </div>
+        </div>
+        <!-- Controles -->
+        <div class="controls">
+          <i class="fa-solid fa-arrow-left"> </i>
+          <i class="fa-solid fa-arrow-right"></i>
+          <div class="points">
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
 </html>
